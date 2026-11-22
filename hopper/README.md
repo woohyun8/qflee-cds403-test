@@ -50,11 +50,3 @@ The agent logs themselves (about 1.1 GB) are not stored in this repository.
 | Syria | 185.0 | 193.1 |
 
 All 160 runs finished with exit status 0. Runtimes vary with the node type the scheduler assigns.
-
-## Running on Hopper yourself
-
-The scripts contain paths for user `wsong8` (`/home/wsong8/css610/...`), the SLURM account `css610sp26`
-and a virtual environment at `/home/wsong8/css610/flee-env`. Change these to your own before using them.
-Example submission for 20 Mali Q-Flee runs:
-
-    sbatch --array=1-20 --job-name=qmali --time=00:30:00 hopper/scripts/rerun20.slurm mali mali2012 300 qmali
