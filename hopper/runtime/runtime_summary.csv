@@ -1,0 +1,9 @@
+label,n_runs,cores_per_run,runtime_mean_min,runtime_sd_min,runtime_min_min,runtime_max_min,nodes_used,failed_runs
+mali,20,1,3.6,0.2,3.3,4.1,9,0
+qmali,20,1,3.2,0.1,3.0,3.3,5,0
+burundi,20,1,10.1,1.5,8.4,11.9,5,0
+qburundi,20,1,9.5,0.4,9.2,11.3,6,0
+car,20,1,29.1,0.3,28.4,29.6,4,0
+qcar,20,1,33.0,3.0,31.2,41.6,6,0
+syria,20,1,185.0,12.3,175.1,229.4,8,0
+qsyria,20,1,193.1,15.0,185.0,232.5,5,0

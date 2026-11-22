@@ -1,0 +1,9 @@
+label,scenario,model,n_runs,ard_mean,ard_sd,ard_min,ard_max
+mali,Mali,Baseline,20,0.2761,0.0009,0.2744,0.2784
+qmali,Mali,Q-Flee,20,0.2746,0.0012,0.2721,0.2771
+burundi,Burundi,Baseline,20,0.5198,0.0008,0.5187,0.5214
+qburundi,Burundi,Q-Flee,20,0.5232,0.0012,0.5212,0.5251
+car,CAR,Baseline,20,0.3406,0.0007,0.3392,0.3420
+qcar,CAR,Q-Flee,20,0.3422,0.0006,0.3410,0.3432
+syria,Syria,Baseline,20,0.2630,0.0003,0.2624,0.2635
+qsyria,Syria,Q-Flee,20,0.2653,0.0003,0.2648,0.2660

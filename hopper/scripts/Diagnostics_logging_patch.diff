@@ -1,0 +1,16 @@
+90a91,101
+>     if time % timestep_interval == 0 and os.environ.get("AGENT_COUNTS"):
+>         _c = {}
+>         for _a in agents:
+>             if _a.location is None:
+>                 continue
+>             _key = (_a.location.name, _a.travelling)
+>             _c[_key] = _c.get(_key, 0) + 1
+>         with open("location_counts.csv", "a", encoding="utf-8") as _f:
+>             for (_n, _t), _v in _c.items():
+>                 _f.write("{},{},{},{}\n".format(time, _n, _t, _v))
+> 
+92c103
+<         for k in range(0, max_written):
+---
+>         for k in range(0, max_written, int(os.environ.get("AGENT_SAMPLE", "1"))):
